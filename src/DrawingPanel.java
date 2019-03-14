@@ -39,9 +39,9 @@ public class DrawingPanel extends JPanel {
             g2.setStroke(new BasicStroke(3));
             initialSpotX++;
             initialSpotY++;
-            Font titleFont = new  Font ("Harlow Solid Italic", Font.BOLD, 40);
+            Font titleFont = new  Font ("Algerian", Font.BOLD, 64);
     		g.setFont(titleFont);
-            g.drawString("LCW", 90, 150);
+            g.drawString("L", 120, 160);
             g.setColor(new Color(255, 0, 164));
 			g.drawOval(initialSpotX, initialSpotY, 180, 180);
 			initialSpotX = resetSpot(initialSpotX);
